@@ -1,0 +1,8 @@
+Pandas
+Lumpy
+Seaborn
+Matplotlib
+tabulate
+scikit-learn
+xgboost
+
