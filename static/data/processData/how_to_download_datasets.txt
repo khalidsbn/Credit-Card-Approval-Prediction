@@ -1,0 +1,7 @@
+Due to the huge size of the datasets, I couldn't upload them to my repo in GitHub. Here is how to download it:
+1. First go the this website:
+https://www.kaggle.com/competitions/home-credit-default-risk/overview
+2. Then go to the data section there
+3. Download that data
+4. Put the data in this directory: static/data/processData
+6. Run the notebooks as you want.
