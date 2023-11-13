@@ -12,26 +12,28 @@ Many people struggle to get loans due to insufficient or non-existent credit his
 * **README.md**: The top-level README for reviewers of this project
 * **requirements.txt**: requirements file; including the needed tools
 * **notebooks**:
-    - **01.data_visualization.ipynb**:
-    - **02.01.process_main_data.ipynb**:
-    - **02.02.bureau_data.ipynb**:
-    - **02.03.payment_data.ipynb**:
-    - **02.04.cash_data.ipynb**:
-    - **02.05.merge_all_datasets.ipynb**:
-    - **03.model.ipynb**:
-    - **functions.py**:
+    - **01.data_visualization.ipynb**: Visualize the main dataset.
+    - **02.01.process_main_data.ipynb**: Process the main dataset.
+    - **02.02.bureau_data.ipynb**: Process bureau dataset.
+    - **02.03.payment_data.ipynb**: Process payment dataset.
+    - **02.04.cash_data.ipynb**: Process cash dataset.
+    - **02.05.merge_all_datasets.ipynb**: Merge all the previous datasets.
+    - **03.model.ipynb**: ML model
+    - **functions.py**: Build some functions to use them it the processing section.
 * **static**:
     - **data**: 
-        - **dataProcess**: 
-        - **cleanedData**: 
-    - **img**:
+        - **dataProcess**: Datasets used in the processing notebooks.
+        - **cleanedData**: Datasets after processing and cleaning them.
+    - **img**: Images used in README.
 
 
 ### Libraries
-* pandas
-* NumPy
+* Pandas
+* Lumpy
+* Seaborn
+* Matplotlib
+* tabulate
 * scikit-learn
-* xgboost
 
 ### Algorithm
 Here is the results of the model when I used only the main dataset:
