@@ -79,4 +79,4 @@ Clients who failure to repay the loan by age group:
 
 
 ### Known issues
-Due to the huge size of the datasets, I couldn't upload them. In static/data/process/Data there is a file explaining how to download it after cloning the repo.
+Due to the huge size of the datasets, I couldn't upload them. In `static/data/process/Data` there is a file explaining how to download it after cloning the repo.
