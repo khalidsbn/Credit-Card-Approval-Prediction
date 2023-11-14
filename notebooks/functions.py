@@ -27,7 +27,7 @@ def missing_values_table(df, select_numerical=True):
     mis_val = df[columns].isnull().sum()
 
     # Percentage of missing values
-    mis_val_percent = 100 * df[columns].isnull().sum() / len(X)
+    mis_val_percent = 100 * df[columns].isnull().sum() / len(df)
 
     # Make a table with the results
     mis_val_table = pd.concat([mis_val, mis_val_percent], axis=1)
